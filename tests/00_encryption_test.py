@@ -1,7 +1,7 @@
 # vigenere cypher test
 
 import pytest
-from cf_vigenere_cypher import vigenere_scyther
+from vigenere_cypher import vigenere_scyther
 
 def test_encryption():
 	choice = "1"
