@@ -67,6 +67,7 @@ class vigenere_scyther:
       elif self.choice == "2":
         output = self.__transformation(self.__decryption())
         print(f'Decrypted message: {output}')
+      return output
 
 if __name__ == "__main__":
   print("Welcome to Isaac's Vigenere Cypher!")
