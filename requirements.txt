@@ -29,7 +29,7 @@ mccabe==0.6.1
 more-itertools==5.0.0
 ndg-httpsclient==0.5.1
 nose2==0.9.1
-numpy==1.17.3
+numpy==1.22.0
 pandas==0.25.2
 parsel==1.5.2
 pep8-naming==0.9.1
