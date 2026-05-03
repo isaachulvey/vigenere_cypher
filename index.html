@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Vigenere Cypher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vigenere Cypher</h1>
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" placeholder="Enter your message here..."></textarea>
+        </div>
+        <div class="input-group">
+            <label for="key">Key:</label>
+            <input type="text" id="key" placeholder="Enter your key here...">
+        </div>
+        <div class="button-group">
+            <button id="encryptBtn">Encrypt</button>
+            <button id="decryptBtn">Decrypt</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div class="result-group">
+            <label for="result">Result:</label>
+            <textarea id="result" rows="4" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
